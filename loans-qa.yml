@@ -1,0 +1,17 @@
+
+spring:
+  config:
+    activate:
+      on-profile: "qa"        # we are saying that whenever we are trying to activate a profile with the value prod, this yml file will be activated.
+
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to DEKANBANK loans related QA APIs"
+  contactDetails:
+    name: "Mehmet KILIÇ - Developer"
+    email: "mehmet.kilic@gmail.com"
+  onCallSupport:
+    - (666) 666-6666
+    - (666) 666-1234

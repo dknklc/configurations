@@ -1,0 +1,12 @@
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to DEKANBANK loans related prod APIs"
+  contactDetails:
+    name: "Mustafa KILIÇ - Developer"
+    email: "mustafa.kilic@gmail.com"
+  onCallSupport:
+    - (777) 777-7777
+    - (777) 777-1234

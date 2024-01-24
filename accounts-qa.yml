@@ -1,0 +1,12 @@
+
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to DEKANBANK accounts related QA APIs"
+  contactDetails:
+    name: "Mehmet KILIÇ - Developer"
+    email: "mehmet.kilic@gmail.com"
+  onCallSupport:
+    - (666) 666-6666
+    - (666) 666-1234

@@ -1,0 +1,12 @@
+
+build:
+  version: "2.0"
+
+cards:
+  message: "Welcome to DEKANBANK cards related QA APIs"
+  contactDetails:
+    name: "Mehmet KILIÇ - Developer"
+    email: "mehmet.kilic@gmail.com"
+  onCallSupport:
+    - (666) 666-6666
+    - (666) 666-1234
