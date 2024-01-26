@@ -3,7 +3,7 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to DEKANBANK cards related prod APIs"
+  message: "Welcome to DEKANBANK cards related production APIs"
   contactDetails:
     name: "Mustafa KILIÇ - Developer"
     email: "mustafa.kilic@gmail.com"
