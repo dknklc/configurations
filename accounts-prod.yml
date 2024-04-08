@@ -3,7 +3,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to DEKANBANK accounts related prod APIs"
+  message: "Welcome to DEKANBANK accounts related production APIs"
   contactDetails:
     name: "Mustafa KILIÇ - Developer"
     email: "{cipher}05fc2498462e5ea76e6b1d28e7d93327cc6234896b2701ece1ae0ed3cd3e7f9b956eb70adcdc42afdc9d692b0c8125c1"
