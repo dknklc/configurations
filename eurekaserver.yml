@@ -5,7 +5,7 @@ eureka:
   instance:
     hostname: localhost
   client:
-    fetchRegistry: false
-    registerWithEureka: false
+    fetchRegistry: false # The reason is I do not want my Eureka server to fetch the registry details of other microservices. My eureka server are never going to call the microservices. That is why it is unnecessary to fetch all the registry details of the microservices. Whereas in our individual microservices like accounts, loans and cards, this value should be true.
+    registerWithEureka: false # I tell my Eureka server that do not register with yourself and do not expose your details into registry of the service discovery.
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
